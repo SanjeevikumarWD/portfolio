@@ -7,6 +7,7 @@ import { HiMiniArrowDownRight } from "react-icons/hi2";
 import { FiDownload } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import Skills from "./Skills";
+import ParticleBackground from "./ParticleBackground";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -17,27 +18,32 @@ const Home = () => {
 
   return (
     <>
-      <div className="relative flex justify-center items-center min-h-screen bg-bg text-text m-0  ">
+      <div className="relative min-h-screen flex justify-center items-center">
+        {/* Particles Background */}
+        <ParticleBackground />
+
         {/* Centered Content */}
-        <div className="flex flex-col justify-center items-center  h-full px-6 text-center max-w-[600px]">
+        <div className="relative flex flex-col justify-center items-center h-full px-6 text-center max-w-[600px] z-10">
           <FadeInOnScroll threshold={0.1}>
             <h1 className="text-text font-rosarivo text-4xl md:text-6xl lg:text-6xl cursor-default">
-              I'm <span className="italic ">Sanjeevikumar</span>,<br /> a{" "}
+              I'm <span className="italic">Sanjeevikumar</span>,<br /> a{" "}
               <span className="italic">Web Developer</span> based in{" "}
               <span className="italic">India</span>
             </h1>
           </FadeInOnScroll>
+
           <FadeInOnScroll threshold={0.2}>
-            <p className="mt-4 text-sm md:text-lg lg:text-xl font-thin font-robotoFlex cursor-default">
+            <p className="text-text mt-4 text-sm md:text-lg lg:text-xl font-thin font-robotoFlex cursor-default">
               "I’m passionate about crafting user-focused designs and thrive on
               the excitement of bringing creative ideas to life."
             </p>
           </FadeInOnScroll>
+
           <FadeInOnScroll threshold={0.2}>
             <a
               href="/sanjeevikumar_webdev.pdf"
               download="Sanjeevikumar_webdev"
-              className="flex gap-3 items-center text-sm mt-5 opacity-85 border-2 border-border py-2 px-3 rounded-xl cursor-pointer z-50"
+              className="flex gap-3 items-center text-sm mt-5 opacity-85 border-2 border-border py-2 px-3 rounded-xl cursor-pointer text-text"
             >
               Resume
               <FiDownload className="text-lg" />
@@ -203,7 +209,7 @@ const Home = () => {
           </div>
         </FadeInOnScroll>
       </div>
-      <FadeInOnScroll threshold={0.3}>
+      <FadeInOnScroll threshold={0.1}>
         <footer className="bg-bg text-text py-5">
           <p className="text-center">
             © 2024 Sanjeevikumar. Built with ❤️ using React and Tailwind CSS.
