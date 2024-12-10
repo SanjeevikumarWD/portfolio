@@ -65,10 +65,12 @@ const Home = () => {
               className="w-64 lg:w-72 h-auto rounded-full border-4 border-border mx-auto"
             />
             <p className="text-text mx-auto mt-7 text-center italic max-w-md lg:text-2xl cursor-default">
-              With a fresh mind, I weave the web, where ideas and creativity
-              flow, A perfectionist’s touch shapes each detail, ensuring
-              brilliance in every glow. Crafting sites that captivate, I let my
-              imagination endlessly grow.
+              "With a clear vision and a passion for design, I craft digital
+              experiences where innovation and creativity converge. Every detail
+              is meticulously shaped with a perfectionist’s touch, ensuring
+              excellence at every step. By building captivating websites, I let
+              my imagination thrive, transforming ideas into engaging and
+              impactful realities."
             </p>
           </div>
         </FadeInOnScroll>
