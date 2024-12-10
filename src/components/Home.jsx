@@ -8,6 +8,7 @@ import { FiDownload } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import Skills from "./Skills";
 import ParticleBackground from "./ParticleBackground";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -211,12 +212,23 @@ const Home = () => {
           </div>
         </FadeInOnScroll>
       </div>
-      <FadeInOnScroll threshold={0.1}>
-        <footer className="bg-bg text-text py-5">
-          <p className="text-center">
+      <FadeInOnScroll threshold={0.3}>
+        <div className="px-5 lg:px-10">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl italic font-rosarivo cursor-default mb-10 text-text text-center lg:text-left lg:w-[600px]">
+            Enhance Your Digital Presence with My Expertise!
+          </h1>
+          <div className="flex flex-col items-center lg:items-start mb-32 ">
+            <p className="text-bg bg-text max-w-64 flex items-center justify-around px-3 py-2 rounded-full text-center lg:text-left font-robotoFlex">
+              Connect with Me Today! <GoArrowUpRight />
+            </p>
+            <p className="text-center md:text-left text-text mt-2 opacity-70">
+              Schedule a call with SanjeeviKumar 📞
+            </p>
+          </div>
+          <p className="text-center text-text text-[10px]lg:text-md px-2 mb-5 lg:mb-10">
             © 2024 Sanjeevikumar. Built with ❤️ using React and Tailwind CSS.
           </p>
-        </footer>
+        </div>
       </FadeInOnScroll>
     </>
   );
