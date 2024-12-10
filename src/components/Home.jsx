@@ -218,9 +218,12 @@ const Home = () => {
             Enhance Your Digital Presence with My Expertise!
           </h1>
           <div className="flex flex-col items-center lg:items-start mb-32 ">
-            <p className="text-bg bg-text max-w-64 flex items-center justify-around px-3 py-2 rounded-full text-center lg:text-left font-robotoFlex">
-              Connect with Me Today! <GoArrowUpRight />
-            </p>
+            <a href="tel:9500372667" className="block">
+              <p className="text-bg bg-text max-w-64 flex items-center justify-around px-3 py-2 rounded-full text-center lg:text-left font-robotoFlex cursor-pointer">
+                Connect with Me Today! <GoArrowUpRight />
+              </p>
+            </a>
+
             <p className="text-center md:text-left text-text mt-2 opacity-70">
               Schedule a call with SanjeeviKumar 📞
             </p>
