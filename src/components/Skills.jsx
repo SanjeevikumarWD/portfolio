@@ -22,7 +22,7 @@ const skills = [
 const Skills = () => {
   return (
     <div className="p-6">
-      <h2 className="text-2xl italic mb-4 font-rosarivo">Skills</h2>
+      <h2 className="text-2xl md:text-3xl lg:text-5xl italic  font-rosarivo cursor-default my-2">Tech Stack</h2>
       <div className="flex flex-wrap gap-6">
         {skills.map((skill, index) => (
           <div
