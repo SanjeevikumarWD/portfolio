@@ -27,7 +27,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={skill.name}
-            className={`flex items-center gap-2 p-3 shadow-md rounded-lg text-lg bg-text text-bg`}
+            className={`flex items-center gap-2 p-3 shadow-md rounded-lg text-lg bg-text text-bg cursor-default`}
           >
             <div className="text-2xl">{skill.icon}</div>
             <span>{skill.name}</span>

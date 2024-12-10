@@ -19,7 +19,7 @@ const ProductCard = () => {
         <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
           {product.heading}
         </h1>
-        <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose ">
+        <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose cursor-default">
           {product.description}
         </p>
         {product.github && (
