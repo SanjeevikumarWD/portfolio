@@ -12,6 +12,9 @@ export default {
         rosarivo: ["Rosarivo", "cursive"],
         robotoFlex: ["Roboto Flex", "sans-serif"],
       },
+      screens: {
+        '2xl': '2200px',
+      },
     },
   },
   plugins: [],

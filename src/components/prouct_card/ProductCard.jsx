@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { productData } from "../ProductData";
+import { HiArrowLeftCircle } from "react-icons/hi2";
 
 const ProductCard = () => {
   const { id } = useParams();
@@ -46,9 +47,16 @@ const ProductCard = () => {
       </div>
       <button
         onClick={() => navigate("/")}
-        className="absolute top-0 right-2 font-robotoFlex bg-text text-bg px-2 py-1 rounded-lg md:text-xl"
+        className="absolute top-0 right-2 flex items-center"
       >
-        Go Back
+        {/* Icon for mobile screens */}
+        <HiArrowLeftCircle className="block md:hidden text-2xl rounded-full bg-text text-bg " />
+
+
+        {/* Text for larger screens */}
+        <span className="hidden md:block font-robotoFlex md:text-xl lg:text-2xl bg-text text-bg px-2 py-1 rounded-lg">
+          Go Back
+        </span>
       </button>
     </div>
   );

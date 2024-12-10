@@ -5,7 +5,7 @@ const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
     // Get theme from session storage or default to "light"
-    return sessionStorage.getItem("theme") || "light";
+    return sessionStorage.getItem("theme") || "dark";
   });
 
   const toggleTheme = () => {

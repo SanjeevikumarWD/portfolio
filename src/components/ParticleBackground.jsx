@@ -35,7 +35,7 @@ const ParticleBackground = () => {
           },
           line_linked: {
             enable: true,
-            distance: 200,
+            distance: 150,
             color: lineColor, // Set line color based on theme
             opacity: 0.4,
             width: 1,
