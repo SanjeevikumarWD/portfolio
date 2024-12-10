@@ -10,7 +10,7 @@ const App = () => {
           <Main />
         </ThemeProvider>
       </div>
-      <div className="hidden 2xl:flex justify-center items-center h-screen text-[100px] font-rosarivo italic">Prefer using smaller screen 🤞😉</div>
+      <div className="hidden 2xl:flex justify-center items-center h-screen text-text text-[100px] font-rosarivo italic">Prefer using smaller screen 🤞😉</div>
     </>
   );
 };
