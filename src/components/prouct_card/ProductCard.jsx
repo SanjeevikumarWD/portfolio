@@ -24,7 +24,7 @@ const ProductCard = () => {
     href="https://frontend-ecom-edz9.onrender.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-blue-400 underline ml-4"
+    className="text-blue-400 underline ml-4 mb-5"
   >
     On Live
   </a>
