@@ -16,9 +16,20 @@ const ProductCard = () => {
   return (
     <div className="relative mt-28 mx-8 text-text">
       <div className="product-card ">
-        <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
-          {product.heading}
-        </h1>
+       <div className="flex">
+  <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
+    {product.heading}
+  </h1>
+  <a
+    href="https://frontend-ecom-edz9.onrender.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 underline ml-4"
+  >
+    On Live
+  </a>
+</div>
+
         <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose cursor-default">
           {product.description}
         </p>
