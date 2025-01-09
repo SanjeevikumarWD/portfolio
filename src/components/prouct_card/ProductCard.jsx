@@ -16,7 +16,7 @@ const ProductCard = () => {
   return (
     <div className="relative mt-28 mx-8 text-text">
       <div className="product-card ">
-       <div className="flex">
+       <div className="flex items-end">
   <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
     {product.heading}
   </h1>
@@ -24,7 +24,7 @@ const ProductCard = () => {
     href="https://frontend-ecom-edz9.onrender.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-blue-500 underline ml-4"
+    className="text-blue-400 underline ml-4"
   >
     On Live
   </a>
