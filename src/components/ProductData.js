@@ -4,6 +4,7 @@ export const productData = [
       images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"],
       heading: "SNEV CLOTHING BRAND",
       github: "https://github.com/SanjeevikumarWD/E-commerce_RBAC",
+      liveLink: "https://frontend-ecom-edz9.onrender.com"
       description: `
     **Online Dress Sales Platform**
     
