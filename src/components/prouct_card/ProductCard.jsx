@@ -20,14 +20,16 @@ const ProductCard = () => {
   <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
     {product.heading}
   </h1>
-  <a
-    href="https://frontend-ecom-edz9.onrender.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-400 underline ml-4 mb-5"
-  >
-    On Live
-  </a>
+  {product.liveLink && (
+      <a
+        href={product.liveLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 underline ml-4 mb-5"
+      >
+        On Live
+      </a>
+    )}
 </div>
 
         <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose cursor-default">
