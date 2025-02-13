@@ -229,7 +229,7 @@ const Home = () => {
             </p>
           </div>
           <p className="text-center text-text text-[10px]lg:text-md px-2 mb-5 lg:mb-10">
-            © 2024 Sanjeevikumar. Built with ❤️ using React and Tailwind CSS.
+            © {new Date().getFullYear()} Sanjeevikumar. Built with ❤️ using React and Tailwind CSS.
           </p>
         </div>
       </FadeInOnScroll>
