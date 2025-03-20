@@ -28,7 +28,7 @@ const Home = () => {
           <FadeInOnScroll threshold={0.1}>
             <h1 className="text-text font-rosarivo text-4xl md:text-6xl lg:text-6xl cursor-default">
               I'm <span className="italic">Sanjeevikumar</span>,<br /> a{" "}
-              <span className="italic">Web Developer</span> based in{" "}
+              <span className="italic">Software Developer</span> based in{" "}
               <span className="italic">India</span>
             </h1>
           </FadeInOnScroll>
@@ -42,7 +42,7 @@ const Home = () => {
 
           <FadeInOnScroll threshold={0.2}>
             <a
-              href="/Sanjeevikumar_WebDeveloper_MERN.pdf"
+              href="/sde_sanjeevikumar.pdf"
               download="Sanjeevikumar_webdev"
               className="flex gap-3 items-center text-sm mt-5 opacity-85 border-2 border-border py-2 px-3 rounded-xl cursor-pointer text-text"
             >
