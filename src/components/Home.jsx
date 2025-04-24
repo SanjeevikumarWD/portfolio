@@ -9,6 +9,8 @@ import { useNavigate } from "react-router-dom";
 import Skills from "./Skills";
 import ParticleBackground from "./ParticleBackground";
 import { GoArrowUpRight } from "react-icons/go";
+import { useEffect } from "react";
+import { FiChevronDown } from "react-icons/fi";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -16,6 +18,20 @@ const Home = () => {
   const handleCardClicked = (productKey) => {
     navigate(`product/${productKey}`);
   };
+
+  useEffect(() => {
+  const handleScroll = () => {
+    const downArrow = document.getElementById("downArrow");
+    if (window.scrollY > 50) {
+      downArrow.style.opacity = "0";
+    } else {
+      downArrow.style.opacity = "1";
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
   return (
     <>
@@ -50,6 +66,10 @@ const Home = () => {
               <FiDownload className="text-lg" />
             </a>
           </FadeInOnScroll>
+        </div>
+        {/* Down Arrow */}
+        <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-20 transition-opacity duration-300" id="downArrow">
+          <FiChevronDown className="text-text text-3xl animate-bounce" />
         </div>
       </div>
       <div className=" px-7 bg-bg text-text pb-10">
