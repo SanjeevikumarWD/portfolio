@@ -21,15 +21,15 @@ const ProductCard = () => {
     {product.heading}
   </h1>
   {product.liveLink && (
-      <a
-        href={product.liveLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 underline ml-4 mb-5"
-      >
-        On Live
-      </a>
-    )}
+  <a
+    href={product.liveLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 mb-5 ml-4"
+  >
+    🔗 On Live
+  </a>
+)}
 </div>
 
         <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose cursor-default">
