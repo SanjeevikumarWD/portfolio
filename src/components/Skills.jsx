@@ -1,11 +1,10 @@
 import React from "react";
-import { FaReact, FaNodeJs, FaGit, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaGit, FaVuejs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
   SiMongodb,
   SiJavascript,
   SiTailwindcss,
   SiMysql,
-  SiVueDotJs,
   SiQuasar,
   SiPython,
 } from "react-icons/si";
@@ -18,7 +17,7 @@ const skills = [
   { name: "CSS", icon: <FaCss3Alt /> },
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "React", icon: <FaReact /> },
-  { name: "Vue.js", icon: <SiVueDotJs /> },
+  { name: "Vue.js", icon: <FaVuejs /> },
   { name: "Quasar", icon: <SiQuasar /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
 
