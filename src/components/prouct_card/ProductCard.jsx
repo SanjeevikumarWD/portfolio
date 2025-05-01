@@ -16,21 +16,22 @@ const ProductCard = () => {
   return (
     <div className="relative mt-28 mx-8 text-text">
       <div className="product-card ">
-       <div className="flex items-end">
+       <div className="flex items-end gap-4">
   <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
     {product.heading}
   </h1>
   {product.liveLink && (
-      <a
-        href={product.liveLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mb-10 font-robotoFlex bg-text text-bg px-2 py-1 rounded-lg md:text-xl"
-      >
-        On Live
-      </a>
-    )}
+    <a
+      href={product.liveLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-robotoFlex bg-text text-bg px-3 py-1 rounded-md md:text-base lg:text-lg"
+    >
+      On Live
+    </a>
+  )}
 </div>
+
 
         <p className="my-10 md:text-lg lg:text-2xl xl:text-3xl lg:leading-relaxed xl:leading-loose cursor-default">
           {product.description}
