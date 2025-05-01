@@ -58,7 +58,7 @@ const Home = () => {
 
           <FadeInOnScroll threshold={0.2}>
             <a
-              href="/Web_developer_sanjeevikumar.pdf"
+              href="/UI_Engineer_Sanjeevikumar.pdf"
               download="Sanjeevikumar_webdev"
               className="flex gap-3 items-center text-sm mt-5 opacity-85 border-2 border-border py-2 px-3 rounded-xl cursor-pointer text-text"
             >
