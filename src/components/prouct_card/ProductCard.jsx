@@ -24,7 +24,7 @@ const ProductCard = () => {
       href={product.liveLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2 text-inherit hover:underline"
+      className="xs:flex xs:items-center gap-2 text-inherit hover:underline"
     >
       <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
         {product.heading}
