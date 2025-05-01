@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { productData } from "../ProductData";
 import { HiArrowLeftCircle } from "react-icons/hi2";
+import { FiExternalLink } from "react-icons/fi";
+
 
 const ProductCard = () => {
   const { id } = useParams();
@@ -16,19 +18,23 @@ const ProductCard = () => {
   return (
     <div className="relative mt-28 mx-8 text-text">
       <div className="product-card ">
-       <div className="flex items-end gap-4">
-  <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
-    {product.heading}
-  </h1>
-  {product.liveLink && (
+       <div className="flex items-end gap-2">
+  {product.liveLink ? (
     <a
       href={product.liveLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="font-robotoFlex bg-text text-bg px-3 py-1 rounded-md md:text-base lg:text-lg"
+      className="flex items-center gap-2 text-inherit hover:underline"
     >
-      On Live
+      <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
+        {product.heading}
+      </h1>
+      <FiExternalLink className="text-xl md:text-2xl lg:text-3xl" />
     </a>
+  ) : (
+    <h1 className="font-rosarivo text-2xl md:text-3xl lg:text-5xl font-semibold">
+      {product.heading}
+    </h1>
   )}
 </div>
 
