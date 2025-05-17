@@ -138,7 +138,7 @@ const Home = () => {
             <FadeInOnScroll>
               <div className="px-7 relative max-w-[800px]">
                 <img
-                  src="/assets/p5/1.jpg"
+                  src="/assets/P5/1.jpg"
                   alt=""
                   className="rounded-lg shadow-md"
                 />
