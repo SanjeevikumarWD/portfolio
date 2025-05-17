@@ -138,12 +138,35 @@ const Home = () => {
             <FadeInOnScroll>
               <div className="px-7 relative max-w-[800px]">
                 <img
-                  src="/assets/p1/home.png"
+                  src="/assets/p5/1.jpg"
                   alt=""
                   className="rounded-lg shadow-md"
                 />
                 <div className="flex justify-between my-1">
                   <p className="opacity-50 font-mono text-sm lg:text-lg">/01</p>
+                  <p
+                    className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
+                    onClick={() => handleCardClicked("5")}
+                  >
+                    Know more <CircleArrowOutUpRight size={14} />
+                  </p>
+                  <p className="font-mono text-sm lg:text-lg">
+                    ONLYBABY Toy Store
+                  </p>
+                </div>
+              </div>
+            </FadeInOnScroll>
+        <FadeInOnScroll>
+          <div className="space-y-10">
+            <FadeInOnScroll>
+              <div className="px-7 relative max-w-[800px]">
+                <img
+                  src="/assets/p1/home.png"
+                  alt=""
+                  className="rounded-lg shadow-md"
+                />
+                <div className="flex justify-between my-1">
+                  <p className="opacity-50 font-mono text-sm lg:text-lg">/02</p>
                   <p
                     className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
                     onClick={() => handleCardClicked("1")}
@@ -166,7 +189,7 @@ const Home = () => {
                   />
                   <div className="flex justify-between my-1">
                     <p className="opacity-50 font-mono text-sm lg:text-lg">
-                      /02
+                      /03
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
@@ -191,7 +214,7 @@ const Home = () => {
                   />
                   <div className="flex justify-between my-1">
                     <p className="opacity-50 font-mono text-sm lg:text-lg">
-                      /03
+                      /04
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
@@ -214,7 +237,7 @@ const Home = () => {
                   />
                   <div className="flex justify-between my-1">
                     <p className="opacity-50 font-mono text-sm lg:text-lg">
-                      /04
+                      /05
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
