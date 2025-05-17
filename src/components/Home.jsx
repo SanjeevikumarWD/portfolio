@@ -146,7 +146,7 @@ const Home = () => {
                   <p className="opacity-50 font-mono text-sm lg:text-lg">/01</p>
                   <p
                     className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                    onClick={() => handleCardClicked("5")}
+                    onClick={() => handleCardClicked("1")}
                   >
                     Know more <CircleArrowOutUpRight size={14} />
                   </p>
@@ -169,7 +169,7 @@ const Home = () => {
                   <p className="opacity-50 font-mono text-sm lg:text-lg">/02</p>
                   <p
                     className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                    onClick={() => handleCardClicked("1")}
+                    onClick={() => handleCardClicked("2")}
                   >
                     Know more <CircleArrowOutUpRight size={14} />
                   </p>
@@ -193,7 +193,7 @@ const Home = () => {
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                      onClick={() => handleCardClicked("2")}
+                      onClick={() => handleCardClicked("3")}
                     >
                       Know more <CircleArrowOutUpRight size={14} />
                     </p>
@@ -218,7 +218,7 @@ const Home = () => {
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                      onClick={() => handleCardClicked("3")}
+                      onClick={() => handleCardClicked("4")}
                     >
                       Know more <CircleArrowOutUpRight size={14} />
                     </p>
@@ -241,7 +241,7 @@ const Home = () => {
                     </p>
                     <p
                       className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                      onClick={() => handleCardClicked("4")}
+                      onClick={() => handleCardClicked("5")}
                     >
                       Know more <CircleArrowOutUpRight size={14} />
                     </p>
