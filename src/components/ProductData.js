@@ -47,7 +47,7 @@ To enhance my design skills and upscale my potential, I recently began exploring
     images: ["1.jpg", "2.jpg", "3.jpg", "home.jpg"],
     liveLink: "https://onlybaby.co.in/",
     heading: "ONLYBABY – Online Toy Store",
-    github: "https://github.com/SanjeevikumarWD/OnlyBaby-Ecommerce-ToyStore",
+    github: "https://github.com/SanjeevikumarWD/Onlybaby_User",
     description: `
 Full-Stack E-commerce Platform
 
