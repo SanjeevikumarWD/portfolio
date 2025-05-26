@@ -1,21 +1,7 @@
 export const productData = [
   {
-    id: "5",
-    images: ["1.jpg", "2.jpg", "3.jpg"],
-    liveLink: "Onlybaby.co.in",
-    heading: "ONLYBABY – Online Toy Store",
-    github: "https://github.com/SanjeevikumarWD/OnlyBaby-Ecommerce-ToyStore",
-    description: `
-Full-Stack E-commerce Platform
-
-ONLYBABY is a comprehensive e-commerce web app focused on baby and kids' toys. Built using React.js, Node.js, and Express.js, it offers secure and responsive shopping. The platform integrates Razorpay for smooth transactions (improving success rates by 35%), uses JWT for secure authentication, and Twilio for SMS updates. Zustand handles state management efficiently. Features include product listing, cart functionality, order history, and mobile-friendly UI with Bootstrap.
-
-Technologies Used: React.js, Node.js, Express.js, JWT, Zustand, Razorpay, Twilio, Bootstrap.
-`
-  },
-  {
-    id: "1",
-    images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png"],
+    id: "0",
+    images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "home.png"],
     liveLink: "https://frontend-ecom-edz9.onrender.com/", 
     heading: "SNEV CLOTHING BRAND",
     github: "https://github.com/SanjeevikumarWD/E-commerce_RBAC",
@@ -26,7 +12,7 @@ SNEV Clothing Brand is an advanced e-commerce platform designed with robust Role
 `
   },
   {
-    id: "2",
+    id: "1",
     images: ["1.png", "2.png", "home.png"],
     heading: "SAKU Chat App",
     github: "https://github.com/SanjeevikumarWD/Real-Time-Chat-Application",
@@ -37,7 +23,7 @@ SAKU Chat App is a cutting-edge chat platform developed using the MERN stack and
 `
   },
   {
-    id: "3",
+    id: "2",
     images: ["1.png", "2.png", "3.png", "4.png", "home.png"],
     heading: "SAKU Blogs",
     description: `
@@ -47,13 +33,27 @@ SAKU Blogs is a feature-rich platform designed for seamless content creation and
 `
   },
   {
-    id: "4",
+    id: "3",
     images: ["1.jpg", "2.jpg", "3.jpg", "home.jpg"],
     heading: "FIGMA Designs",
     description: `
 Learning and Designing with FIGMA
 
 To enhance my design skills and upscale my potential, I recently began exploring FIGMA. As part of this journey, I conceptualized and created a design to address parking lot problems. This experience has allowed me to delve into user-centric design, showcasing my ability to solve real-world challenges through visual representations. FIGMA’s intuitive interface has been instrumental in fostering creativity and precision in my designs.
+`
+  },
+  {
+    id: "4",
+    images: ["1.jpg", "2.jpg", "3.jpg", "home.jpg"],
+    liveLink: "Onlybaby.co.in",
+    heading: "ONLYBABY – Online Toy Store",
+    github: "https://github.com/SanjeevikumarWD/OnlyBaby-Ecommerce-ToyStore",
+    description: `
+Full-Stack E-commerce Platform
+
+ONLYBABY is a comprehensive e-commerce web app focused on baby and kids' toys. Built using React.js, Node.js, and Express.js, it offers secure and responsive shopping. The platform integrates Razorpay for smooth transactions (improving success rates by 35%), uses JWT for secure authentication, and Twilio for SMS updates. Zustand handles state management efficiently. Features include product listing, cart functionality, order history, and mobile-friendly UI with Bootstrap.
+
+Technologies Used: React.js, Node.js, Express.js, JWT, Zustand, Razorpay, Twilio, Bootstrap.
 `
   }
 ];
