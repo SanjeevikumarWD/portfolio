@@ -11,6 +11,7 @@ import ParticleBackground from "./ParticleBackground";
 import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from "react";
 import { FiChevronDown } from "react-icons/fi";
+import { productData } from './ProductData';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -134,7 +135,35 @@ const Home = () => {
           </h1>
         </FadeInOnScroll>
         <FadeInOnScroll>
-          <div className="space-y-10">
+
+        <div className="space-y-10">
+        {productData.map((project, index) => (
+          <FadeInOnScroll key={project.id}>
+            <div className={index % 2 === 1 ? "flex justify-end" : ""}>
+              <div className="px-7 relative max-w-[800px]">
+                <img
+                  src={`/assets/p${index + 1}/${project.images.find(img => img.includes('home')) || project.images[0]}`}
+                  alt={project.heading}
+                  className="rounded-lg shadow-md"
+                />
+                <div className="flex justify-between my-1">
+                  <p className="opacity-50 font-mono text-sm lg:text-lg">
+                    /0{index + 2} {/* Adjust numbering if needed */}
+                  </p>
+                  <p
+                    className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
+                    onClick={() => handleCardClicked(project.id)}
+                  >
+                    Know more <CircleArrowOutUpRight size={14} />
+                  </p>
+                  <p className="font-mono text-sm lg:text-lg">{project.heading}</p>
+                </div>
+              </div>
+            </div>
+          </FadeInOnScroll>
+        ))}
+      </div>
+    {/*  <div className="space-y-10">
             <FadeInOnScroll>
               <div className="px-7 relative max-w-[800px]">
                 <img
@@ -146,7 +175,7 @@ const Home = () => {
                   <p className="opacity-50 font-mono text-sm lg:text-lg">/01</p>
                   <p
                     className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
-                    onClick={() => handleCardClicked("1")}
+                    onClick={() => handleCardClicked("1")} 
                   >
                     Know more <CircleArrowOutUpRight size={14} />
                   </p>
@@ -252,8 +281,9 @@ const Home = () => {
                 </div>
               </div>
             </FadeInOnScroll>
-          </div>
-        </FadeInOnScroll>
+          </div>*/}
+        </FadeInOnScroll> 
+        
       </div>
       <FadeInOnScroll threshold={0.3}>
         <div className="px-5 lg:px-10">
