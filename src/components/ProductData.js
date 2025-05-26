@@ -1,6 +1,6 @@
 export const productData = [
   {
-    id: "0",
+    id: "1",
     images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "home.png"],
     liveLink: "https://frontend-ecom-edz9.onrender.com/", 
     heading: "SNEV CLOTHING BRAND",
@@ -12,7 +12,7 @@ SNEV Clothing Brand is an advanced e-commerce platform designed with robust Role
 `
   },
   {
-    id: "1",
+    id: "2",
     images: ["1.png", "2.png", "home.png"],
     heading: "SAKU Chat App",
     github: "https://github.com/SanjeevikumarWD/Real-Time-Chat-Application",
@@ -23,7 +23,7 @@ SAKU Chat App is a cutting-edge chat platform developed using the MERN stack and
 `
   },
   {
-    id: "2",
+    id: "3",
     images: ["1.png", "2.png", "3.png", "4.png", "home.png"],
     heading: "SAKU Blogs",
     description: `
@@ -33,7 +33,7 @@ SAKU Blogs is a feature-rich platform designed for seamless content creation and
 `
   },
   {
-    id: "3",
+    id: "4",
     images: ["1.jpg", "2.jpg", "3.jpg", "home.jpg"],
     heading: "FIGMA Designs",
     description: `
@@ -43,7 +43,7 @@ To enhance my design skills and upscale my potential, I recently began exploring
 `
   },
   {
-    id: "4",
+    id: "5",
     images: ["1.jpg", "2.jpg", "3.jpg", "home.jpg"],
     liveLink: "Onlybaby.co.in",
     heading: "ONLYBABY – Online Toy Store",
