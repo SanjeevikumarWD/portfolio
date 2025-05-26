@@ -148,7 +148,7 @@ const Home = () => {
                 />
                 <div className="flex justify-between my-1">
                   <p className="opacity-50 font-mono text-sm lg:text-lg">
-                    /0{index + 2} {/* Adjust numbering if needed */}
+                    /0{index + 1} {/* Adjust numbering if needed */}
                   </p>
                   <p
                     className="flex opacity-75 font-mono text-sm lg:text-lg justify-center items-center gap-2 cursor-pointer"
